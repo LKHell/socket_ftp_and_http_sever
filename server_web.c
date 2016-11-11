@@ -369,9 +369,9 @@ int main(int argc, char *argv[]) 	/* argv[0] pointer to program name
 		if(type_int1 == 3) //gif
 		{
 			
-			// char filename1[]="/home/users/reseau00073/document/image.gif";
+			// char filename1[]="/home/users/****/document/image.gif";
 			//printf("\n%s\n", filename);
-			//char filename1[]="/home/users/reseau00073/document/image.gif"; 
+			//char filename1[]="/home/users/*****/document/image.gif"; 
 		
 			
 			strcat( filename1 ,filename) ;
@@ -388,7 +388,7 @@ int main(int argc, char *argv[]) 	/* argv[0] pointer to program name
 			}
 			printf("\nFile size : %d octets \n", buf.st_size); 
 			//printf("11111"); 
-			// if((ptr = fopen("/home/users/reseau00073/document/image.gif","r")) == NULL)
+			// if((ptr = fopen("/home/users/*******/document/image.gif","r")) == NULL)
 			if((ptr = fopen(filename1,"r")) == NULL)
 			{ 
 				perror("error / open image.gif");
