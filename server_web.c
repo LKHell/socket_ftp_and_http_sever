@@ -91,7 +91,7 @@ cument not found.</html></body>\n"
 #define T_HTML "text/html"
 #define T_JPG "image/jpeg"
 #define T_GIF "image/gif"
-#define ADDRESS "/home/user/reseau00073/document"
+//#define ADDRESS "/home/user/******/document" /*useless*/
 
 
 int	recvln(int, char *, int);    	/* read a client http line  */
