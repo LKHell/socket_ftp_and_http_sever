@@ -1,0 +1,1 @@
+gcc s1.c -lnsl -w -o s1
